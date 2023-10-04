@@ -1,2 +1,2 @@
 #!/bin/bash
-grep ".js" -r|rm -f *.js
+find . -maxdepth 2 *.js | rm *.js
