@@ -1,2 +1,0 @@
-#!/bin/bash
-ls -l | grep "-" | sort -M | head -10
